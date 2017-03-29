@@ -1,0 +1,313 @@
+body { padding-top: 50px; }
+
+.navbar{
+	
+				background:transparent;
+				height: 55px;
+				border:none;
+}
+
+.container-fluid{
+	padding: 0;
+}
+#bs-example-navbar-collapse-1{
+	background: black;
+}
+			.logo{
+				margin-right: 20px;
+				margin-top:-20px;
+				height:60px;
+					}
+					.tginfo{
+						background: transparent;
+						margin:20px;
+						visibility: hidden;
+						color: white;
+						text-align: center;
+						padding:5px;
+
+
+					}
+
+					.tginfoo{
+						visibility: visible;
+					
+					}
+
+
+
+.about{
+	font-size: 20px;
+	margin-top:100px;
+	margin: 70px 30px 300px 30px;
+font-family: 'Raleway', sans-serif;
+text-shadow: 1px 1px #9FAEB3;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	/*background-color: #6cc;*/
+
+}
+h1{
+	font-family: 'Abril Fatface', cursive;
+width: 100%;
+margin:0;
+background: rgba(150,150,150,0.1);
+	text-align: center;
+	color: white;
+	padding: 60px 0px 40px 0px;
+	
+}
+
+
+			strong{
+				
+				font-family: 'Anton', sans-serif;
+				font-size: 40px;
+				font-weight: bolder;
+				
+					}
+
+			.s1{
+				color:#434645;
+				background-color: #009AB2;
+					}
+			.s2{
+				color: #292d35;
+				background-color: #009AB2;
+
+					}
+
+			.s3{
+				color: #1a1f28;
+				background:#009AB2; 
+					}
+
+					.magmsg{
+						margin-top: 50px;
+						background: transparent;
+					}
+					
+
+					.nav{
+					margin-left: 50px;
+					}
+
+					li{
+
+						font-weight: bolder;
+						
+					}
+
+					.slide{
+						
+						height: auto;
+						width: auto;
+					margin: 0 auto;
+					}
+
+					#dLabel{
+						border:none;
+						background: transparent;
+					}
+
+				.bar{
+					height:8px;
+					width: cover;
+					background:black;
+				}
+				
+
+				.about:hover{
+					transform: scale(1.01);
+					transition-duration: 1s;
+				}
+
+
+.col-md-12{
+	padding: 0;
+}
+
+#social{
+	height:30px;
+	margin:0;
+margin-top: 10px;
+	text-align: right;
+}
+
+#social1{
+	height:30px;
+	margin-top:15px;
+	margin-right:10px;
+	text-align: right;
+}
+.sociallist{
+	
+	padding-left: 5px;
+	padding-bottom: 5px;
+	background:transparent;
+	padding-right: 20px;
+}
+#social:hover{
+	transform: scale(1.2);
+	transition-duration: 0.2s;
+}
+
+h3{
+font-weight: bolder;
+	text-align:center;
+}
+
+h2{
+	line-height: 30px;
+	color: white;
+	text-align:center;
+	
+
+font-size:16px;
+}
+
+.panel{
+	line-height: 20px;
+	border:none;
+	font-size:16px;
+	text-align:center;
+	color: white;
+	background: rgba(150,150,150,0.2);
+border-radius: 0;
+padding-top:10px;
+width: 100%;
+margin-top: 30px;
+}
+
+.panel:hover{
+	transform: scale(1.04);
+	background: rgba(150,150,150,0.5);
+
+	transition-duration: 1s;
+
+}
+
+.row{
+width: 100%;
+}
+				
+				#wwd,#msg,#off,#teamall,#inspiration,#contact,#testid{
+
+					
+					background: url("images/background2.jpg");
+					background-size: 100%;
+
+				}/*
+				.testid{
+				padding: 0;	
+				background: url("images/background2.jpg");
+
+				}
+			*/
+				.img-thumbnail{
+
+					display: block;
+					height: 200px;	
+				}
+
+				.team{
+					border-radius: 50%;
+					margin:5% 0% 5% 30%;
+				}
+				.km{
+					background: rgba(150,150,150,0.1);
+					color: white;
+					font-weight: bolder;
+					border-radius: 20px;
+					margin-top:10px;
+					margin-left:40%;
+					
+				}
+
+				.team:hover{
+					border:solid black 3px;	
+				transition-duration:0.3s;
+				}
+.magimg{
+display: block;
+height:480px;
+}
+				.test2{
+					height: 2000px;
+					background:#cac;
+				}
+				.test3{
+					height: 2000px;
+					background:#cC5;
+				}
+				
+				@media(max-width: 500px){
+
+					h1{
+						font-size: 20px;
+						margin: 0;
+					}
+					.about{
+						padding-top:10px;
+						
+						font-size: 16px;
+					}
+					.testid{
+						background-size: cover;
+					}
+
+					
+
+					#wwd{
+						background:cover;
+					}
+				}
+
+
+
+				.end{
+					height:70px;
+					background: #0f0f0a;
+				}
+
+				.item{
+					display: inline-block;
+					 }
+					 #map{
+					 	height:500px;       
+       				 width: 100%;
+       				 padding: 0;
+				}		
+				.mapdiv{
+					padding:0;
+				}
+
+				.contactinfo{
+					background:#f9f7c2;
+					height:500px;
+					}	
+
+					#addr{
+						margin:20px;
+						
+						
+						}	
+
+						#pn{
+							margin-top: 50px;
+
+						}	
+
+		
+.copyright{
+	margin-top:15px;
+	}
+
+	h5{
+		display:inline-block;
+		margin-left:20px;
+	}
+
+
+ /*api key : AIzaSyC8WUrF-LKCP-E8BLqV9_sgoygk2w9A2Zo*/
