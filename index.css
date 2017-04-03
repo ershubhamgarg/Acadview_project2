@@ -1,63 +1,63 @@
 /*body { padding-top: 50px; }*/
 
 .navbar{
-	
-				background:transparent;
-				height: 55px;
-				border:none;
-}
+		
+background:transparent;
+					height: 55px;
+					border:none;
+	}
 
-.container-fluid{
-	padding: 0;
-}
-#bs-example-navbar-collapse-1{
-	background: black;
-}
-			.logo{
-				margin-right: 20px;
-				margin-top:-20px;
-				height:60px;
-					}
-					.tginfo{
-						background: transparent;
-						margin:20px;
-						visibility: hidden;
-						color: white;
-						text-align: center;
-						padding:5px;
-
-
-					}
-
-					.tginfoo{
-						visibility: visible;
-					
-					}
+	.container-fluid{
+		padding: 0;
+	}
+	#bs-example-navbar-collapse-1{
+		background: black;
+	}
+				.logo{
+					margin-right: 20px;
+					margin-top:-20px;
+					height:60px;
+						}
+						.tginfo{
+							background: transparent;
+							margin:15px;
+							visibility: hidden;
+							color: white;
+							text-align: center;
+							padding:5px;
 
 
+						}
 
-.about{
-	font-size: 20px;
-	margin-top:100px;
-	margin: 70px 30px 300px 30px;
-font-family: 'Raleway', sans-serif;
-text-shadow: 1px 1px #9FAEB3;
-	color: white;
-	text-align: center;
-	line-height: 40px;
-	/*background-color: #6cc;*/
+						.tginfoo{
+							visibility: visible;
+						
+						}
 
-}
-h1{
-	font-family: 'Abril Fatface', cursive;
-width: 100%;
-margin:0;
-background: rgba(150,150,150,0.1);
-	text-align: center;
-	color: white;
-	padding: 60px 0px 40px 0px;
-	
-}
+
+
+	.about{
+		font-size: 20px;
+		margin-top:100px;
+		margin: 70px 30px 300px 30px;
+	font-family: 'Raleway', sans-serif;
+	text-shadow: 1px 1px #9FAEB3;
+		color: white;
+		text-align: center;
+		line-height: 40px;
+		/*background-color: #6cc;*/
+
+	}
+	h1{
+		font-family: 'Abril Fatface', cursive;
+	width: 100%;
+	margin:0;
+	background: rgba(150,150,150,0.1);
+		text-align: center;
+		color: white;
+		padding: 60px 0px 40px 0px;
+		
+	}
 
 
 			strong{
@@ -148,10 +148,20 @@ margin-top: 10px;
 	background:transparent;
 	position: relative;
 	left: -20px;
+
+
 }
-#social:hover{
+.team_social{
+	text-align: center;
+
+	margin-left:45px;
+}
+
+#social:hover, #social1:hover{
 	transform: scale(1.2);
 	transition-duration: 0.2s;
+	filter: hue-rotate(90deg);
+
 }
 
 h3{
@@ -220,7 +230,7 @@ position: relative;
 
 				.team{
 					border-radius: 50%;
-					margin:5% 0% 5% 30%;
+					margin:2% 0% 3% 30%;
 				}
 				.km{
 					background: rgba(150,150,150,0.1);
@@ -236,10 +246,10 @@ position: relative;
 					border:solid black 3px;	
 				transition-duration:0.3s;
 				}
-.magimg{
-display: block;
-height:480px;
-}
+				.magimg{
+				display: block;
+				height:480px;
+				}
 				.test2{
 					height: 2000px;
 					background:#cac;
